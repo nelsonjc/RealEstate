@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RealEstate.API</name>
+    </assembly>
+    <members>
+        <member name="T:RealEstate.API.App_Start.JwtConfig">
+            <summary>
+            Class to config JWT
+            </summary>
+        </member>
+        <member name="M:RealEstate.API.App_Start.JwtConfig.AddJwtConfig(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Add JWT documentation
+            </summary>
+            <param name="services">Parameter service type of IServiceCollection</param>
+            <returns></returns>
+        </member>
+        <member name="M:RealEstate.API.App_Start.JwtConfig.GetTokenValidationParameters(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Get token validation parameters
+            </summary>
+            <param name="secretkey">string</param>
+            <returns></returns>
+        </member>
+        <member name="T:RealEstate.API.App_Start.SwaggerConfig">
+            <summary>
+            Class to config swagger 
+            </summary>
+        </member>
+        <member name="M:RealEstate.API.App_Start.SwaggerConfig.AddSwaggerConfig(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Add swagger configuration
+            </summary>
+            <param name="services">IServiceCollection</param>
+            <returns></returns>
+        </member>
+        <member name="M:RealEstate.API.App_Start.SwaggerConfig.GetOpenApiInfo">
+            <summary>
+            Get Open API information
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RealEstate.API.App_Start.SwaggerConfig.GetOpenApiSecurityScheme">
+            <summary>
+            Get Open API security scheme
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RealEstate.API.App_Start.SwaggerConfig.GetOpenApiSecurityRequirement">
+            <summary>
+            Get Open API security requirements
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RealEstate.API.App_Start.SwaggerConfig.GetCommentsPath">
+            <summary>
+            Get comments path file
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RealEstate.API.App_Start.SwaggerConfig.UseSwaggerConfig(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            Use swagger configuration
+            </summary>
+            <param name="app"></param>
+        </member>
+        <member name="T:RealEstate.API.App_Start.SwitchConnectionConfiguration">
+            <summary>
+            Configura la obtención de cadenas de conexión basadas en el entorno actual (desarrollo, producción, etc.).
+            También agrega soporte para variables de entorno y secretos de usuario.
+            </summary>
+        </member>
+        <member name="M:RealEstate.API.App_Start.SwitchConnectionConfiguration.#cctor">
+            <summary>
+            Constructor estático que inicializa la configuración cargando diferentes archivos
+            de configuración dependiendo del entorno actual de la aplicación (Development, Production, etc.).
+            Incluye también la carga de variables de entorno y secretos de usuario.
+            </summary>
+        </member>
+        <member name="M:RealEstate.API.App_Start.SwitchConnectionConfiguration.GetConnection">
+            <summary>
+            Obtiene la cadena de conexión desde los archivos de configuración o las variables de entorno.
+            Prioriza la cadena de conexión en "appsettings.json", luego revisa las variables de entorno.
+            </summary>
+            <returns>
+            La cadena de conexión obtenida o null si no se encuentra.
+            </returns>
+        </member>
+        <member name="T:RealEstate.API.Controllers.PropertyController">
+            <summary>
+            Controller for managing properties, including adding, updating, and retrieving property information.
+            Handles property images, property details, and pagination for property listings.
+            </summary>
+        </member>
+        <member name="M:RealEstate.API.Controllers.PropertyController.#ctor(AutoMapper.IMapper,RealEstate.Core.Interfaces.Utils.IFileService,RealEstate.Core.Interfaces.Services.IPropertyService)">
+            <summary>
+            Initializes a new instance of the <see cref="T:RealEstate.API.Controllers.PropertyController"/> class.
+            </summary>
+            <param name="mapper">AutoMapper service for object mapping.</param>
+            <param name="fileService">Service for handling property-related files and images.</param>
+            <param name="service">Service for property operations (e.g., create, update).</param>
+        </member>
+        <member name="M:RealEstate.API.Controllers.PropertyController.AddProperty(RealEstate.Core.DTOs.PropertyCreationRequestDto)">
+            <summary>
+            Adds a new property.
+            </summary>
+            <param name="request">The property creation request containing necessary details.</param>
+            <returns>Created property information or an error if something went wrong.</returns>
+        </member>
+        <member name="M:RealEstate.API.Controllers.PropertyController.UpdateProperty(System.Int64,RealEstate.Core.DTOs.PropertyUpdateRequestDto)">
+            <summary>
+            Updates an existing property by ID.
+            </summary>
+            <param name="id">The ID of the property to update.</param>
+            <param name="request">The update request with new property details.</param>
+            <returns>Updated property information or an error if something went wrong.</returns>
+        </member>
+        <member name="M:RealEstate.API.Controllers.PropertyController.GetById(System.Int64)">
+            <summary>
+            Retrieves property details by ID.
+            </summary>
+            <param name="id">The ID of the property to retrieve.</param>
+            <returns>Property details or an error if something went wrong.</returns>
+        </member>
+        <member name="M:RealEstate.API.Controllers.PropertyController.All(RealEstate.Core.QueryFilters.PropertyQueryFilter)">
+            <summary>
+            Retrieves a paginated list of properties based on filters.
+            </summary>
+            <param name="filters">Query filters for properties, such as page size, search term, etc.</param>
+            <returns>Paginated list of properties or an error if something went wrong.</returns>
+        </member>
+        <member name="M:RealEstate.API.Controllers.PropertyController.AddImageProperty(System.Int64,RealEstate.Core.DTOs.PropertyImageCreationRequestDto)">
+            <summary>
+            Adds an image to a property.
+            </summary>
+            <param name="id">The ID of the property to add an image to.</param>
+            <param name="request">The image creation request containing image details.</param>
+            <returns>Success message or an error if something went wrong.</returns>
+        </member>
+        <member name="T:RealEstate.API.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:RealEstate.API.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:RealEstate.API.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:RealEstate.API.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

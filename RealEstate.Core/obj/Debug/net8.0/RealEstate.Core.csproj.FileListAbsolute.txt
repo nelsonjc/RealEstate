@@ -1,0 +1,12 @@
+C:\Users\Nelson Jaramillo\source\repos\RealEstate.Service\RealEstate.Core\bin\Debug\net8.0\RealEstate.Core.deps.json
+C:\Users\Nelson Jaramillo\source\repos\RealEstate.Service\RealEstate.Core\bin\Debug\net8.0\RealEstate.Core.dll
+C:\Users\Nelson Jaramillo\source\repos\RealEstate.Service\RealEstate.Core\bin\Debug\net8.0\RealEstate.Core.pdb
+C:\Users\Nelson Jaramillo\source\repos\RealEstate.Service\RealEstate.Core\obj\Debug\net8.0\RealEstate.Core.csproj.AssemblyReference.cache
+C:\Users\Nelson Jaramillo\source\repos\RealEstate.Service\RealEstate.Core\obj\Debug\net8.0\RealEstate.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nelson Jaramillo\source\repos\RealEstate.Service\RealEstate.Core\obj\Debug\net8.0\RealEstate.Core.AssemblyInfoInputs.cache
+C:\Users\Nelson Jaramillo\source\repos\RealEstate.Service\RealEstate.Core\obj\Debug\net8.0\RealEstate.Core.AssemblyInfo.cs
+C:\Users\Nelson Jaramillo\source\repos\RealEstate.Service\RealEstate.Core\obj\Debug\net8.0\RealEstate.Core.csproj.CoreCompileInputs.cache
+C:\Users\Nelson Jaramillo\source\repos\RealEstate.Service\RealEstate.Core\obj\Debug\net8.0\RealEstate.Core.dll
+C:\Users\Nelson Jaramillo\source\repos\RealEstate.Service\RealEstate.Core\obj\Debug\net8.0\refint\RealEstate.Core.dll
+C:\Users\Nelson Jaramillo\source\repos\RealEstate.Service\RealEstate.Core\obj\Debug\net8.0\RealEstate.Core.pdb
+C:\Users\Nelson Jaramillo\source\repos\RealEstate.Service\RealEstate.Core\obj\Debug\net8.0\ref\RealEstate.Core.dll

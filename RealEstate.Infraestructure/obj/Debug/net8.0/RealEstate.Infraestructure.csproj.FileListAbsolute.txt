@@ -1,0 +1,17 @@
+C:\Users\Nelson Jaramillo\source\repos\RealEstate.Service\RealEstate.Infraestructure\bin\Debug\net8.0\RealEstate.Infraestructure.deps.json
+C:\Users\Nelson Jaramillo\source\repos\RealEstate.Service\RealEstate.Infraestructure\bin\Debug\net8.0\RealEstate.Infraestructure.runtimeconfig.json
+C:\Users\Nelson Jaramillo\source\repos\RealEstate.Service\RealEstate.Infraestructure\bin\Debug\net8.0\RealEstate.Infraestructure.dll
+C:\Users\Nelson Jaramillo\source\repos\RealEstate.Service\RealEstate.Infraestructure\bin\Debug\net8.0\RealEstate.Infraestructure.pdb
+C:\Users\Nelson Jaramillo\source\repos\RealEstate.Service\RealEstate.Infraestructure\bin\Debug\net8.0\RealEstate.Core.dll
+C:\Users\Nelson Jaramillo\source\repos\RealEstate.Service\RealEstate.Infraestructure\bin\Debug\net8.0\RealEstate.Core.pdb
+C:\Users\Nelson Jaramillo\source\repos\RealEstate.Service\RealEstate.Infraestructure\obj\Debug\net8.0\RealEstate.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\Nelson Jaramillo\source\repos\RealEstate.Service\RealEstate.Infraestructure\obj\Debug\net8.0\RealEstate.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nelson Jaramillo\source\repos\RealEstate.Service\RealEstate.Infraestructure\obj\Debug\net8.0\RealEstate.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\Nelson Jaramillo\source\repos\RealEstate.Service\RealEstate.Infraestructure\obj\Debug\net8.0\RealEstate.Infraestructure.AssemblyInfo.cs
+C:\Users\Nelson Jaramillo\source\repos\RealEstate.Service\RealEstate.Infraestructure\obj\Debug\net8.0\RealEstate.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\Nelson Jaramillo\source\repos\RealEstate.Service\RealEstate.Infraestructure\obj\Debug\net8.0\RealEsta.B7EF5955.Up2Date
+C:\Users\Nelson Jaramillo\source\repos\RealEstate.Service\RealEstate.Infraestructure\obj\Debug\net8.0\RealEstate.Infraestructure.dll
+C:\Users\Nelson Jaramillo\source\repos\RealEstate.Service\RealEstate.Infraestructure\obj\Debug\net8.0\refint\RealEstate.Infraestructure.dll
+C:\Users\Nelson Jaramillo\source\repos\RealEstate.Service\RealEstate.Infraestructure\obj\Debug\net8.0\RealEstate.Infraestructure.pdb
+C:\Users\Nelson Jaramillo\source\repos\RealEstate.Service\RealEstate.Infraestructure\obj\Debug\net8.0\RealEstate.Infraestructure.genruntimeconfig.cache
+C:\Users\Nelson Jaramillo\source\repos\RealEstate.Service\RealEstate.Infraestructure\obj\Debug\net8.0\ref\RealEstate.Infraestructure.dll
