@@ -17,27 +17,27 @@ This repository contains a solution for a technical test for a Senior .NET Devel
 ### Features
 
 1. **Create Property Building**
-   - **Endpoint**: `POST /api/properties`
+   - **Endpoint**: `POST /api/v1/properties`
    - **Description**: Adds a new property to the database.
    - **Request Body**: JSON object with property details.
 
 2. **Add Image to Property**
-   - **Endpoint**: `POST /api/properties/{propertyId}/images`
+   - **Endpoint**: `POST /api/v1/properties/{propertyId}/images`
    - **Description**: Uploads and associates an image with a specific property.
    - **Request Body**: JSON object with image details in Base64 format.
 
 3. **Change Property Price**
-   - **Endpoint**: `PUT /api/properties/{propertyId}/price`
+   - **Endpoint**: `PUT /api/v1/properties/{propertyId}/price`
    - **Description**: Updates the price of a property.
    - **Request Body**: JSON object with new price.
 
 4. **Update Property Details**
-   - **Endpoint**: `PUT /api/properties/{propertyId}`
+   - **Endpoint**: `PUT /api/v1/properties/{propertyId}`
    - **Description**: Updates other details of a property.
    - **Request Body**: JSON object with updated property details.
 
 5. **List Properties with Filters**
-   - **Endpoint**: `GET /api/properties`
+   - **Endpoint**: `GET /api/v1/properties`
    - **Description**: Retrieves a list of properties with various filtering options.
    - **Query Parameters**: Filters such as price range, location, and property type.
 
